@@ -1,0 +1,688 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "recordsound"
+provides-nominal:
+- "007CmAaDFu11recordsoundC"
+provides-member:
+- ["007CmAaDFu11recordsoundC", ""]
+provides-dynamic-lookup:
+- "motionBegan"
+- "touchesBegan"
+- "touchesEnded"
+depends-top-level:
+- !private ">"
+- "AVAudioPlayer"
+- "AVAudioQuality"
+- "AVAudioRecorder"
+- "AVEncoderAudioQualityKey"
+- "AVFormatIDKey"
+- "AVNumberOfChannelsKey"
+- "AVSampleRateKey"
+- "AnyObject"
+- "CastingPrecedence"
+- "FloatLiteralType"
+- !private "Int"
+- "Int32"
+- "IntegerLiteralType"
+- "NSNumber"
+- "NSURL"
+- "Set"
+- "String"
+- "StringLiteralType"
+- "UIEvent"
+- "UITouch"
+- "UIViewController"
+- "URL"
+- "kAudioFormatLinearPCM"
+- "print"
+- "recordsound"
+depends-member:
+- ["So13AVAudioPlayerC", "init"]
+- !private ["So13AVAudioPlayerC", "play"]
+- ["So13AVAudioPlayerC", "prepareToPlay"]
+- ["So14AVAudioQualityV", "min"]
+- ["So14AVAudioQualityV", "rawValue"]
+- !private ["So15AVAudioRecorderC", "currentTime"]
+- !private ["So15AVAudioRecorderC", "deleteRecording"]
+- ["So15AVAudioRecorderC", "init"]
+- ["So15AVAudioRecorderC", "prepareToRecord"]
+- !private ["So15AVAudioRecorderC", "record"]
+- !private ["So15AVAudioRecorderC", "stop"]
+- ["s18AdditiveArithmeticP", "init"]
+- ["Sz", "init"]
+- ["s7CVarArgP", "AVAudioPlayer"]
+- ["s7CVarArgP", "AVAudioQuality"]
+- ["s7CVarArgP", "AVAudioRecorder"]
+- ["s7CVarArgP", "AVEncoderAudioQualityKey"]
+- ["s7CVarArgP", "AVFormatIDKey"]
+- ["s7CVarArgP", "AVNumberOfChannelsKey"]
+- ["s7CVarArgP", "AVSampleRateKey"]
+- ["s7CVarArgP", "EventSubtype"]
+- !private ["s7CVarArgP", "Int"]
+- ["s7CVarArgP", "Int32"]
+- ["s7CVarArgP", "NSNumber"]
+- ["s7CVarArgP", "NSURL"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "currentTime"]
+- !private ["s7CVarArgP", "deleteRecording"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "kAudioFormatLinearPCM"]
+- !private ["s7CVarArgP", "play"]
+- !private ["s7CVarArgP", "player"]
+- ["s7CVarArgP", "prepareToPlay"]
+- ["s7CVarArgP", "prepareToRecord"]
+- ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "record"]
+- !private ["s7CVarArgP", "stop"]
+- ["SL", "init"]
+- ["s28CustomDebugStringConvertibleP", "AVAudioPlayer"]
+- ["s28CustomDebugStringConvertibleP", "AVAudioQuality"]
+- ["s28CustomDebugStringConvertibleP", "AVAudioRecorder"]
+- ["s28CustomDebugStringConvertibleP", "AVEncoderAudioQualityKey"]
+- ["s28CustomDebugStringConvertibleP", "AVFormatIDKey"]
+- ["s28CustomDebugStringConvertibleP", "AVNumberOfChannelsKey"]
+- ["s28CustomDebugStringConvertibleP", "AVSampleRateKey"]
+- ["s28CustomDebugStringConvertibleP", "EventSubtype"]
+- !private ["s28CustomDebugStringConvertibleP", "Int"]
+- ["s28CustomDebugStringConvertibleP", "Int32"]
+- ["s28CustomDebugStringConvertibleP", "NSNumber"]
+- ["s28CustomDebugStringConvertibleP", "NSURL"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "currentTime"]
+- !private ["s28CustomDebugStringConvertibleP", "deleteRecording"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "kAudioFormatLinearPCM"]
+- !private ["s28CustomDebugStringConvertibleP", "play"]
+- !private ["s28CustomDebugStringConvertibleP", "player"]
+- ["s28CustomDebugStringConvertibleP", "prepareToPlay"]
+- ["s28CustomDebugStringConvertibleP", "prepareToRecord"]
+- ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "record"]
+- !private ["s28CustomDebugStringConvertibleP", "stop"]
+- ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "AVAudioPlayer"]
+- ["s23CustomStringConvertibleP", "AVAudioQuality"]
+- ["s23CustomStringConvertibleP", "AVAudioRecorder"]
+- ["s23CustomStringConvertibleP", "AVEncoderAudioQualityKey"]
+- ["s23CustomStringConvertibleP", "AVFormatIDKey"]
+- ["s23CustomStringConvertibleP", "AVNumberOfChannelsKey"]
+- ["s23CustomStringConvertibleP", "AVSampleRateKey"]
+- ["s23CustomStringConvertibleP", "EventSubtype"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- ["s23CustomStringConvertibleP", "Int32"]
+- ["s23CustomStringConvertibleP", "NSNumber"]
+- ["s23CustomStringConvertibleP", "NSURL"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "currentTime"]
+- !private ["s23CustomStringConvertibleP", "deleteRecording"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "kAudioFormatLinearPCM"]
+- !private ["s23CustomStringConvertibleP", "play"]
+- !private ["s23CustomStringConvertibleP", "player"]
+- ["s23CustomStringConvertibleP", "prepareToPlay"]
+- ["s23CustomStringConvertibleP", "prepareToRecord"]
+- ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "record"]
+- !private ["s23CustomStringConvertibleP", "stop"]
+- ["Se", "init"]
+- ["SE", "init"]
+- ["SQ", "AVAudioPlayer"]
+- ["SQ", "AVAudioQuality"]
+- ["SQ", "AVAudioRecorder"]
+- ["SQ", "AVEncoderAudioQualityKey"]
+- ["SQ", "AVFormatIDKey"]
+- ["SQ", "AVNumberOfChannelsKey"]
+- ["SQ", "AVSampleRateKey"]
+- ["SQ", "EventSubtype"]
+- !private ["SQ", "Int"]
+- ["SQ", "Int32"]
+- ["SQ", "NSNumber"]
+- ["SQ", "NSURL"]
+- ["SQ", ""]
+- !private ["SQ", "currentTime"]
+- !private ["SQ", "deleteRecording"]
+- ["SQ", "init"]
+- ["SQ", "kAudioFormatLinearPCM"]
+- ["SQ", "min"]
+- !private ["SQ", "play"]
+- !private ["SQ", "player"]
+- ["SQ", "prepareToPlay"]
+- ["SQ", "prepareToRecord"]
+- ["SQ", "print"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "record"]
+- !private ["SQ", "stop"]
+- ["s27ExpressibleByBooleanLiteralP", "init"]
+- ["s25ExpressibleByFloatLiteralP", "init"]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s17FixedWidthIntegerP", "init"]
+- ["SH", "AVAudioPlayer"]
+- ["SH", "AVAudioQuality"]
+- ["SH", "AVAudioRecorder"]
+- ["SH", "AVEncoderAudioQualityKey"]
+- ["SH", "AVFormatIDKey"]
+- ["SH", "AVNumberOfChannelsKey"]
+- ["SH", "AVSampleRateKey"]
+- ["SH", "EventSubtype"]
+- !private ["SH", "Int"]
+- ["SH", "Int32"]
+- ["SH", "NSNumber"]
+- ["SH", "NSURL"]
+- ["SH", ""]
+- !private ["SH", "currentTime"]
+- !private ["SH", "deleteRecording"]
+- ["SH", "init"]
+- ["SH", "kAudioFormatLinearPCM"]
+- ["SH", "min"]
+- !private ["SH", "play"]
+- !private ["SH", "player"]
+- ["SH", "prepareToPlay"]
+- ["SH", "prepareToRecord"]
+- ["SH", "print"]
+- ["SH", "rawValue"]
+- !private ["SH", "record"]
+- !private ["SH", "stop"]
+- !private ["Si", "init"]
+- ["s5Int32V", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- ["So8NSCodingP", "AVAudioPlayer"]
+- ["So8NSCodingP", "AVAudioQuality"]
+- ["So8NSCodingP", "AVAudioRecorder"]
+- ["So8NSCodingP", "AVEncoderAudioQualityKey"]
+- ["So8NSCodingP", "AVFormatIDKey"]
+- ["So8NSCodingP", "AVNumberOfChannelsKey"]
+- ["So8NSCodingP", "AVSampleRateKey"]
+- !private ["So8NSCodingP", "Int"]
+- ["So8NSCodingP", "Int32"]
+- ["So8NSCodingP", "NSNumber"]
+- ["So8NSCodingP", "NSURL"]
+- ["So8NSCodingP", ""]
+- ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "kAudioFormatLinearPCM"]
+- !private ["So8NSCodingP", "player"]
+- ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "record"]
+- ["So9NSCopyingP", "init"]
+- ["So26NSExtensionRequestHandlingP", "AVAudioPlayer"]
+- ["So26NSExtensionRequestHandlingP", "AVAudioQuality"]
+- ["So26NSExtensionRequestHandlingP", "AVAudioRecorder"]
+- ["So26NSExtensionRequestHandlingP", "AVEncoderAudioQualityKey"]
+- ["So26NSExtensionRequestHandlingP", "AVFormatIDKey"]
+- ["So26NSExtensionRequestHandlingP", "AVNumberOfChannelsKey"]
+- ["So26NSExtensionRequestHandlingP", "AVSampleRateKey"]
+- !private ["So26NSExtensionRequestHandlingP", "Int"]
+- ["So26NSExtensionRequestHandlingP", "Int32"]
+- ["So26NSExtensionRequestHandlingP", "NSNumber"]
+- ["So26NSExtensionRequestHandlingP", "NSURL"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- ["So26NSExtensionRequestHandlingP", "kAudioFormatLinearPCM"]
+- !private ["So26NSExtensionRequestHandlingP", "player"]
+- ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "record"]
+- ["So20NSFetchRequestResultP", "init"]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- ["So8NSNumberC", "init"]
+- ["So8NSObjectC", "$__lazy_storage_$_player"]
+- ["So8NSObjectC", "$__lazy_storage_$_record"]
+- ["So8NSObjectC", "AVAudioPlayer"]
+- ["So8NSObjectC", "AVAudioQuality"]
+- ["So8NSObjectC", "AVAudioRecorder"]
+- ["So8NSObjectC", "AVEncoderAudioQualityKey"]
+- ["So8NSObjectC", "AVFormatIDKey"]
+- ["So8NSObjectC", "AVNumberOfChannelsKey"]
+- ["So8NSObjectC", "AVSampleRateKey"]
+- ["So8NSObjectC", "AnyObject"]
+- ["So8NSObjectC", "EventSubtype"]
+- !private ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "Int32"]
+- ["So8NSObjectC", "NSNumber"]
+- ["So8NSObjectC", "NSURL"]
+- ["So8NSObjectC", "Set"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UIEvent"]
+- ["So8NSObjectC", "UITouch"]
+- ["So8NSObjectC", "URL"]
+- !private ["So8NSObjectC", "currentTime"]
+- !private ["So8NSObjectC", "deleteRecording"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "kAudioFormatLinearPCM"]
+- ["So8NSObjectC", "motionBegan"]
+- !private ["So8NSObjectC", "play"]
+- ["So8NSObjectC", "player"]
+- ["So8NSObjectC", "prepareToPlay"]
+- ["So8NSObjectC", "prepareToRecord"]
+- ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "record"]
+- !private ["So8NSObjectC", "stop"]
+- ["So8NSObjectC", "touchesBegan"]
+- ["So8NSObjectC", "touchesEnded"]
+- ["So8NSObjectP", "AVAudioPlayer"]
+- ["So8NSObjectP", "AVAudioQuality"]
+- ["So8NSObjectP", "AVAudioRecorder"]
+- ["So8NSObjectP", "AVEncoderAudioQualityKey"]
+- ["So8NSObjectP", "AVFormatIDKey"]
+- ["So8NSObjectP", "AVNumberOfChannelsKey"]
+- ["So8NSObjectP", "AVSampleRateKey"]
+- ["So8NSObjectP", "EventSubtype"]
+- !private ["So8NSObjectP", "Int"]
+- ["So8NSObjectP", "Int32"]
+- ["So8NSObjectP", "NSNumber"]
+- ["So8NSObjectP", "NSURL"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "currentTime"]
+- !private ["So8NSObjectP", "deleteRecording"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "kAudioFormatLinearPCM"]
+- !private ["So8NSObjectP", "play"]
+- !private ["So8NSObjectP", "player"]
+- ["So8NSObjectP", "prepareToPlay"]
+- ["So8NSObjectP", "prepareToRecord"]
+- ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "record"]
+- !private ["So8NSObjectP", "stop"]
+- ["So14NSSecureCodingP", "init"]
+- ["So5NSURLC", "init"]
+- ["So7NSValueC", "init"]
+- ["Sj", "init"]
+- ["SY", "min"]
+- ["SY", "rawValue"]
+- ["s10SIMDScalarP", "init"]
+- ["SZ", "init"]
+- ["s13SignedNumericP", "init"]
+- ["Sx", "init"]
+- ["So21UIAppearanceContainerP", "AVAudioPlayer"]
+- ["So21UIAppearanceContainerP", "AVAudioQuality"]
+- ["So21UIAppearanceContainerP", "AVAudioRecorder"]
+- ["So21UIAppearanceContainerP", "AVEncoderAudioQualityKey"]
+- ["So21UIAppearanceContainerP", "AVFormatIDKey"]
+- ["So21UIAppearanceContainerP", "AVNumberOfChannelsKey"]
+- ["So21UIAppearanceContainerP", "AVSampleRateKey"]
+- !private ["So21UIAppearanceContainerP", "Int"]
+- ["So21UIAppearanceContainerP", "Int32"]
+- ["So21UIAppearanceContainerP", "NSNumber"]
+- ["So21UIAppearanceContainerP", "NSURL"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "init"]
+- ["So21UIAppearanceContainerP", "kAudioFormatLinearPCM"]
+- !private ["So21UIAppearanceContainerP", "player"]
+- ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "record"]
+- ["So18UIContentContainerP", "AVAudioPlayer"]
+- ["So18UIContentContainerP", "AVAudioQuality"]
+- ["So18UIContentContainerP", "AVAudioRecorder"]
+- ["So18UIContentContainerP", "AVEncoderAudioQualityKey"]
+- ["So18UIContentContainerP", "AVFormatIDKey"]
+- ["So18UIContentContainerP", "AVNumberOfChannelsKey"]
+- ["So18UIContentContainerP", "AVSampleRateKey"]
+- !private ["So18UIContentContainerP", "Int"]
+- ["So18UIContentContainerP", "Int32"]
+- ["So18UIContentContainerP", "NSNumber"]
+- ["So18UIContentContainerP", "NSURL"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "init"]
+- ["So18UIContentContainerP", "kAudioFormatLinearPCM"]
+- !private ["So18UIContentContainerP", "player"]
+- ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "record"]
+- ["So7UIEventC", "EventSubtype"]
+- ["So18UIFocusEnvironmentP", "AVAudioPlayer"]
+- ["So18UIFocusEnvironmentP", "AVAudioQuality"]
+- ["So18UIFocusEnvironmentP", "AVAudioRecorder"]
+- ["So18UIFocusEnvironmentP", "AVEncoderAudioQualityKey"]
+- ["So18UIFocusEnvironmentP", "AVFormatIDKey"]
+- ["So18UIFocusEnvironmentP", "AVNumberOfChannelsKey"]
+- ["So18UIFocusEnvironmentP", "AVSampleRateKey"]
+- !private ["So18UIFocusEnvironmentP", "Int"]
+- ["So18UIFocusEnvironmentP", "Int32"]
+- ["So18UIFocusEnvironmentP", "NSNumber"]
+- ["So18UIFocusEnvironmentP", "NSURL"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- ["So18UIFocusEnvironmentP", "kAudioFormatLinearPCM"]
+- !private ["So18UIFocusEnvironmentP", "player"]
+- ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "record"]
+- ["So30UIPasteConfigurationSupportingP", "AVAudioPlayer"]
+- ["So30UIPasteConfigurationSupportingP", "AVAudioQuality"]
+- ["So30UIPasteConfigurationSupportingP", "AVAudioRecorder"]
+- ["So30UIPasteConfigurationSupportingP", "AVEncoderAudioQualityKey"]
+- ["So30UIPasteConfigurationSupportingP", "AVFormatIDKey"]
+- ["So30UIPasteConfigurationSupportingP", "AVNumberOfChannelsKey"]
+- ["So30UIPasteConfigurationSupportingP", "AVSampleRateKey"]
+- !private ["So30UIPasteConfigurationSupportingP", "Int"]
+- ["So30UIPasteConfigurationSupportingP", "Int32"]
+- ["So30UIPasteConfigurationSupportingP", "NSNumber"]
+- ["So30UIPasteConfigurationSupportingP", "NSURL"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- ["So30UIPasteConfigurationSupportingP", "kAudioFormatLinearPCM"]
+- !private ["So30UIPasteConfigurationSupportingP", "player"]
+- ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "record"]
+- ["So11UIResponderC", "$__lazy_storage_$_player"]
+- ["So11UIResponderC", "$__lazy_storage_$_record"]
+- ["So11UIResponderC", "AVAudioPlayer"]
+- ["So11UIResponderC", "AVAudioQuality"]
+- ["So11UIResponderC", "AVAudioRecorder"]
+- ["So11UIResponderC", "AVEncoderAudioQualityKey"]
+- ["So11UIResponderC", "AVFormatIDKey"]
+- ["So11UIResponderC", "AVNumberOfChannelsKey"]
+- ["So11UIResponderC", "AVSampleRateKey"]
+- ["So11UIResponderC", "AnyObject"]
+- !private ["So11UIResponderC", "Int"]
+- ["So11UIResponderC", "Int32"]
+- ["So11UIResponderC", "NSNumber"]
+- ["So11UIResponderC", "NSURL"]
+- ["So11UIResponderC", "Set"]
+- ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "UIEvent"]
+- ["So11UIResponderC", "UITouch"]
+- ["So11UIResponderC", "URL"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "kAudioFormatLinearPCM"]
+- ["So11UIResponderC", "motionBegan"]
+- ["So11UIResponderC", "player"]
+- ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "record"]
+- ["So11UIResponderC", "touchesBegan"]
+- ["So11UIResponderC", "touchesEnded"]
+- ["So30UIResponderStandardEditActionsP", "AVAudioPlayer"]
+- ["So30UIResponderStandardEditActionsP", "AVAudioQuality"]
+- ["So30UIResponderStandardEditActionsP", "AVAudioRecorder"]
+- ["So30UIResponderStandardEditActionsP", "AVEncoderAudioQualityKey"]
+- ["So30UIResponderStandardEditActionsP", "AVFormatIDKey"]
+- ["So30UIResponderStandardEditActionsP", "AVNumberOfChannelsKey"]
+- ["So30UIResponderStandardEditActionsP", "AVSampleRateKey"]
+- !private ["So30UIResponderStandardEditActionsP", "Int"]
+- ["So30UIResponderStandardEditActionsP", "Int32"]
+- ["So30UIResponderStandardEditActionsP", "NSNumber"]
+- ["So30UIResponderStandardEditActionsP", "NSURL"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- ["So30UIResponderStandardEditActionsP", "kAudioFormatLinearPCM"]
+- !private ["So30UIResponderStandardEditActionsP", "player"]
+- ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "record"]
+- ["So16UIStateRestoringP", "AVAudioPlayer"]
+- ["So16UIStateRestoringP", "AVAudioQuality"]
+- ["So16UIStateRestoringP", "AVAudioRecorder"]
+- ["So16UIStateRestoringP", "AVEncoderAudioQualityKey"]
+- ["So16UIStateRestoringP", "AVFormatIDKey"]
+- ["So16UIStateRestoringP", "AVNumberOfChannelsKey"]
+- ["So16UIStateRestoringP", "AVSampleRateKey"]
+- !private ["So16UIStateRestoringP", "Int"]
+- ["So16UIStateRestoringP", "Int32"]
+- ["So16UIStateRestoringP", "NSNumber"]
+- ["So16UIStateRestoringP", "NSURL"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "init"]
+- ["So16UIStateRestoringP", "kAudioFormatLinearPCM"]
+- !private ["So16UIStateRestoringP", "player"]
+- ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "record"]
+- ["So18UITraitEnvironmentP", "AVAudioPlayer"]
+- ["So18UITraitEnvironmentP", "AVAudioQuality"]
+- ["So18UITraitEnvironmentP", "AVAudioRecorder"]
+- ["So18UITraitEnvironmentP", "AVEncoderAudioQualityKey"]
+- ["So18UITraitEnvironmentP", "AVFormatIDKey"]
+- ["So18UITraitEnvironmentP", "AVNumberOfChannelsKey"]
+- ["So18UITraitEnvironmentP", "AVSampleRateKey"]
+- !private ["So18UITraitEnvironmentP", "Int"]
+- ["So18UITraitEnvironmentP", "Int32"]
+- ["So18UITraitEnvironmentP", "NSNumber"]
+- ["So18UITraitEnvironmentP", "NSURL"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "init"]
+- ["So18UITraitEnvironmentP", "kAudioFormatLinearPCM"]
+- !private ["So18UITraitEnvironmentP", "player"]
+- ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "record"]
+- ["So23UIUserActivityRestoringP", "AVAudioPlayer"]
+- ["So23UIUserActivityRestoringP", "AVAudioQuality"]
+- ["So23UIUserActivityRestoringP", "AVAudioRecorder"]
+- ["So23UIUserActivityRestoringP", "AVEncoderAudioQualityKey"]
+- ["So23UIUserActivityRestoringP", "AVFormatIDKey"]
+- ["So23UIUserActivityRestoringP", "AVNumberOfChannelsKey"]
+- ["So23UIUserActivityRestoringP", "AVSampleRateKey"]
+- !private ["So23UIUserActivityRestoringP", "Int"]
+- ["So23UIUserActivityRestoringP", "Int32"]
+- ["So23UIUserActivityRestoringP", "NSNumber"]
+- ["So23UIUserActivityRestoringP", "NSURL"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- ["So23UIUserActivityRestoringP", "kAudioFormatLinearPCM"]
+- !private ["So23UIUserActivityRestoringP", "player"]
+- ["So23UIUserActivityRestoringP", "print"]
+- !private ["So23UIUserActivityRestoringP", "record"]
+- ["So16UIViewControllerC", "$__lazy_storage_$_player"]
+- ["So16UIViewControllerC", "$__lazy_storage_$_record"]
+- ["So16UIViewControllerC", "AVAudioPlayer"]
+- ["So16UIViewControllerC", "AVAudioQuality"]
+- ["So16UIViewControllerC", "AVAudioRecorder"]
+- ["So16UIViewControllerC", "AVEncoderAudioQualityKey"]
+- ["So16UIViewControllerC", "AVFormatIDKey"]
+- ["So16UIViewControllerC", "AVNumberOfChannelsKey"]
+- ["So16UIViewControllerC", "AVSampleRateKey"]
+- ["So16UIViewControllerC", "AnyObject"]
+- !private ["So16UIViewControllerC", "Int"]
+- ["So16UIViewControllerC", "Int32"]
+- ["So16UIViewControllerC", "NSNumber"]
+- ["So16UIViewControllerC", "NSURL"]
+- ["So16UIViewControllerC", "Set"]
+- ["So16UIViewControllerC", "String"]
+- ["So16UIViewControllerC", "UIEvent"]
+- ["So16UIViewControllerC", "UITouch"]
+- ["So16UIViewControllerC", "URL"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "kAudioFormatLinearPCM"]
+- ["So16UIViewControllerC", "motionBegan"]
+- ["So16UIViewControllerC", "player"]
+- ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "record"]
+- ["So16UIViewControllerC", "touchesBegan"]
+- ["So16UIViewControllerC", "touchesEnded"]
+- ["s30_CustomPlaygroundQuickLookableP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["7SwiftUI18_FormatSpecifiableP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "AVAudioPlayer"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "AVAudioQuality"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "AVAudioRecorder"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "AVEncoderAudioQualityKey"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "AVFormatIDKey"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "AVNumberOfChannelsKey"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "AVSampleRateKey"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "EventSubtype"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Int32"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "NSNumber"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "NSURL"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentTime"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "deleteRecording"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "kAudioFormatLinearPCM"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "play"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "player"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "prepareToPlay"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "prepareToRecord"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "record"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stop"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "AVAudioPlayer"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "AVAudioQuality"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "AVAudioRecorder"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "AVEncoderAudioQualityKey"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "AVFormatIDKey"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "AVNumberOfChannelsKey"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "AVSampleRateKey"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "EventSubtype"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Int"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Int32"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSNumber"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSURL"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "currentTime"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "deleteRecording"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "kAudioFormatLinearPCM"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "play"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "player"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "prepareToPlay"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "prepareToRecord"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "record"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "stop"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["007CmAaDFu11recordsoundC", "$__lazy_storage_$_player"]
+- !private ["007CmAaDFu11recordsoundC", "$__lazy_storage_$_record"]
+- ["007CmAaDFu11recordsoundC", "AVAudioPlayer"]
+- ["007CmAaDFu11recordsoundC", "AVAudioQuality"]
+- ["007CmAaDFu11recordsoundC", "AVAudioRecorder"]
+- ["007CmAaDFu11recordsoundC", "AVEncoderAudioQualityKey"]
+- ["007CmAaDFu11recordsoundC", "AVFormatIDKey"]
+- ["007CmAaDFu11recordsoundC", "AVNumberOfChannelsKey"]
+- ["007CmAaDFu11recordsoundC", "AVSampleRateKey"]
+- ["007CmAaDFu11recordsoundC", "AnyObject"]
+- !private ["007CmAaDFu11recordsoundC", "Int"]
+- ["007CmAaDFu11recordsoundC", "Int32"]
+- ["007CmAaDFu11recordsoundC", "NSNumber"]
+- ["007CmAaDFu11recordsoundC", "NSURL"]
+- ["007CmAaDFu11recordsoundC", "Set"]
+- ["007CmAaDFu11recordsoundC", "String"]
+- ["007CmAaDFu11recordsoundC", "UIEvent"]
+- ["007CmAaDFu11recordsoundC", "UITouch"]
+- ["007CmAaDFu11recordsoundC", "URL"]
+- ["007CmAaDFu11recordsoundC", "deinit"]
+- ["007CmAaDFu11recordsoundC", "init"]
+- ["007CmAaDFu11recordsoundC", "kAudioFormatLinearPCM"]
+- ["007CmAaDFu11recordsoundC", "motionBegan"]
+- ["007CmAaDFu11recordsoundC", "player"]
+- ["007CmAaDFu11recordsoundC", "print"]
+- ["007CmAaDFu11recordsoundC", "record"]
+- ["007CmAaDFu11recordsoundC", "touchesBegan"]
+- ["007CmAaDFu11recordsoundC", "touchesEnded"]
+depends-nominal:
+- "So13AVAudioPlayerC"
+- "So14AVAudioQualityV"
+- "So15AVAudioRecorderC"
+- "s18AdditiveArithmeticP"
+- "Sz"
+- "s7CVarArgP"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- "s27ExpressibleByBooleanLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s17FixedWidthIntegerP"
+- "SH"
+- !private "Si"
+- "s5Int32V"
+- "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- "So20NSFetchRequestResultP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So8NSNumberC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- "So5NSURLC"
+- "So7NSValueC"
+- "Sj"
+- "SY"
+- "s10SIMDScalarP"
+- "SZ"
+- "s13SignedNumericP"
+- "Sx"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- "So7UIEventC"
+- "So18UIFocusEnvironmentP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So16UIViewControllerC"
+- "s30_CustomPlaygroundQuickLookableP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "7SwiftUI18_FormatSpecifiableP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+- "007CmAaDFu11recordsoundC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreMIDI.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreMedia.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreData.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/simd.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/AVFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreAudio.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/os.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SwiftUI.framework/Modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "1271e5c6ef08d474dd0704cca4b6f995"

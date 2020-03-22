@@ -1,0 +1,693 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Contribution_1"
+- "Contribution_1_Previews"
+- "topwords"
+- "tab1"
+- "tab11"
+- "tab2"
+- "Titlewords1"
+- "Textfield"
+- "tab1_content"
+- "Titlewords2"
+provides-nominal:
+- "007CmAaDFu14Contribution_1V"
+- "007CmAaDFu23Contribution_1_PreviewsV"
+- "007CmAaDFu8topwordsV"
+- "007CmAaDFu4tab1V"
+- "007CmAaDFu5tab11V"
+- "007CmAaDFu4tab2V"
+- "007CmAaDFu11Titlewords1V"
+- "007CmAaDFu9TextfieldV"
+- "007CmAaDFu12tab1_contentV"
+- "007CmAaDFu11Titlewords2V"
+provides-member:
+- ["007CmAaDFu14Contribution_1V", ""]
+- ["007CmAaDFu23Contribution_1_PreviewsV", ""]
+- ["007CmAaDFu8topwordsV", ""]
+- ["007CmAaDFu4tab1V", ""]
+- ["007CmAaDFu5tab11V", ""]
+- ["007CmAaDFu4tab2V", ""]
+- ["007CmAaDFu11Titlewords1V", ""]
+- ["007CmAaDFu9TextfieldV", ""]
+- ["007CmAaDFu12tab1_contentV", ""]
+- ["007CmAaDFu11Titlewords2V", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "AssignmentPrecedence"
+- "Binding"
+- "Bool"
+- "BooleanLiteralType"
+- !private "Button"
+- !private "Circle"
+- !private "Color"
+- "Contribution_1"
+- "Contribution_1_Previews"
+- !private "Contribution_3"
+- !private "FloatLiteralType"
+- !private "HStack"
+- !private "Image"
+- !private "IntegerLiteralType"
+- !private "NavigationLink"
+- "PreviewProvider"
+- !private "Section"
+- !private "Spacer"
+- "State"
+- "String"
+- "StringLiteralType"
+- !private "Text"
+- !private "TextField"
+- "Textfield"
+- "Titlewords1"
+- "Titlewords2"
+- !private "VStack"
+- "View"
+- !private "ZStack"
+- "tab1"
+- "tab11"
+- "tab1_content"
+- "tab2"
+- "topwords"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "bottom"]
+- !private ["s18AdditiveArithmeticP", "top"]
+- !private ["7SwiftUI10AnimatableP", "bottom"]
+- !private ["7SwiftUI10AnimatableP", "foregroundColor"]
+- !private ["7SwiftUI10AnimatableP", "init"]
+- !private ["7SwiftUI10AnimatableP", "top"]
+- !private ["SB", "bottom"]
+- !private ["SB", "top"]
+- !private ["Sb", "toggle"]
+- !private ["7SwiftUI6ButtonV", "init"]
+- !private ["7SwiftUI6ButtonV", "padding"]
+- !private ["7SwiftUI6ButtonV", "popover"]
+- !private ["12CoreGraphics7CGFloatV", "bottom"]
+- !private ["12CoreGraphics7CGFloatV", "top"]
+- !private ["s7CVarArgP", "bottom"]
+- !private ["s7CVarArgP", "toggle"]
+- !private ["s7CVarArgP", "top"]
+- !private ["s12CaseIterableP", "fill"]
+- !private ["7SwiftUI6CircleV", "foregroundColor"]
+- !private ["7SwiftUI6CircleV", "init"]
+- !private ["7SwiftUI5ColorV", "black"]
+- !private ["7SwiftUI5ColorV", "init"]
+- !private ["7SwiftUI5ColorV", "opacity"]
+- !private ["7SwiftUI5ColorV", "white"]
+- !private ["SL", "bottom"]
+- !private ["SL", "top"]
+- !private ["7SwiftUI11ContentModeO", "fill"]
+- ["007CmAaDFu14Contribution_1V", "$showingPopover1"]
+- ["007CmAaDFu14Contribution_1V", "$showingPopover2"]
+- ["007CmAaDFu14Contribution_1V", "$showingPopover3"]
+- ["007CmAaDFu14Contribution_1V", "$showingPopover4"]
+- ["007CmAaDFu14Contribution_1V", "$tab_word1"]
+- ["007CmAaDFu14Contribution_1V", "$tab_word2"]
+- ["007CmAaDFu14Contribution_1V", "$tab_word3"]
+- ["007CmAaDFu14Contribution_1V", "$tab_word4"]
+- ["007CmAaDFu14Contribution_1V", "Body"]
+- !private ["007CmAaDFu14Contribution_1V", "Button"]
+- !private ["007CmAaDFu14Contribution_1V", "Circle"]
+- !private ["007CmAaDFu14Contribution_1V", "Color"]
+- !private ["007CmAaDFu14Contribution_1V", "Contribution_3"]
+- !private ["007CmAaDFu14Contribution_1V", "Image"]
+- !private ["007CmAaDFu14Contribution_1V", "NavigationLink"]
+- ["007CmAaDFu14Contribution_1V", "State"]
+- !private ["007CmAaDFu14Contribution_1V", "Text"]
+- !private ["007CmAaDFu14Contribution_1V", "VStack"]
+- ["007CmAaDFu14Contribution_1V", "View"]
+- !private ["007CmAaDFu14Contribution_1V", "ZStack"]
+- ["007CmAaDFu14Contribution_1V", "_Default_Body"]
+- ["007CmAaDFu14Contribution_1V", "_makeView"]
+- ["007CmAaDFu14Contribution_1V", "_makeViewList"]
+- !private ["007CmAaDFu14Contribution_1V", "_showingPopover1"]
+- !private ["007CmAaDFu14Contribution_1V", "_showingPopover2"]
+- !private ["007CmAaDFu14Contribution_1V", "_showingPopover3"]
+- !private ["007CmAaDFu14Contribution_1V", "_showingPopover4"]
+- !private ["007CmAaDFu14Contribution_1V", "_tab_word1"]
+- !private ["007CmAaDFu14Contribution_1V", "_tab_word2"]
+- !private ["007CmAaDFu14Contribution_1V", "_tab_word3"]
+- !private ["007CmAaDFu14Contribution_1V", "_tab_word4"]
+- ["007CmAaDFu14Contribution_1V", "body"]
+- ["007CmAaDFu14Contribution_1V", "deinit"]
+- ["007CmAaDFu14Contribution_1V", "init"]
+- ["007CmAaDFu14Contribution_1V", "showingPopover1"]
+- ["007CmAaDFu14Contribution_1V", "showingPopover2"]
+- ["007CmAaDFu14Contribution_1V", "showingPopover3"]
+- ["007CmAaDFu14Contribution_1V", "showingPopover4"]
+- !private ["007CmAaDFu14Contribution_1V", "tab1_content"]
+- ["007CmAaDFu14Contribution_1V", "tab_word1"]
+- ["007CmAaDFu14Contribution_1V", "tab_word2"]
+- ["007CmAaDFu14Contribution_1V", "tab_word3"]
+- ["007CmAaDFu14Contribution_1V", "tab_word4"]
+- !private ["007CmAaDFu14Contribution_1V", "topwords"]
+- !private ["007CmAaDFu23Contribution_1_PreviewsV", "Contribution_1"]
+- ["007CmAaDFu23Contribution_1_PreviewsV", "Previews"]
+- ["007CmAaDFu23Contribution_1_PreviewsV", "View"]
+- ["007CmAaDFu23Contribution_1_PreviewsV", "_Default_Previews"]
+- ["007CmAaDFu23Contribution_1_PreviewsV", "_platform"]
+- ["007CmAaDFu23Contribution_1_PreviewsV", "_previews"]
+- ["007CmAaDFu23Contribution_1_PreviewsV", "deinit"]
+- ["007CmAaDFu23Contribution_1_PreviewsV", "init"]
+- ["007CmAaDFu23Contribution_1_PreviewsV", "platform"]
+- ["007CmAaDFu23Contribution_1_PreviewsV", "previews"]
+- !private ["007CmAaDFu14Contribution_3V", "deinit"]
+- !private ["007CmAaDFu14Contribution_3V", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "black"]
+- !private ["s28CustomDebugStringConvertibleP", "bold"]
+- !private ["s28CustomDebugStringConvertibleP", "custom"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s28CustomDebugStringConvertibleP", "white"]
+- !private ["s17CustomReflectableP", "black"]
+- !private ["s17CustomReflectableP", "bold"]
+- !private ["s17CustomReflectableP", "bottom"]
+- !private ["s17CustomReflectableP", "custom"]
+- !private ["s17CustomReflectableP", "title"]
+- !private ["s17CustomReflectableP", "toggle"]
+- !private ["s17CustomReflectableP", "top"]
+- !private ["s17CustomReflectableP", "white"]
+- !private ["s23CustomStringConvertibleP", "black"]
+- !private ["s23CustomStringConvertibleP", "bottom"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "opacity"]
+- !private ["s23CustomStringConvertibleP", "toggle"]
+- !private ["s23CustomStringConvertibleP", "top"]
+- !private ["s23CustomStringConvertibleP", "white"]
+- !private ["Se", "black"]
+- !private ["Se", "bold"]
+- !private ["Se", "bottom"]
+- !private ["Se", "custom"]
+- !private ["Se", "title"]
+- !private ["Se", "toggle"]
+- !private ["Se", "top"]
+- !private ["Se", "white"]
+- ["7SwiftUI15DynamicPropertyP", "init"]
+- ["7SwiftUI15DynamicPropertyP", "wrappedValue"]
+- !private ["7SwiftUI10EdgeInsetsV", "bottom"]
+- !private ["7SwiftUI10EdgeInsetsV", "top"]
+- !private ["SE", "black"]
+- !private ["SE", "bold"]
+- !private ["SE", "bottom"]
+- !private ["SE", "custom"]
+- !private ["SE", "title"]
+- !private ["SE", "toggle"]
+- !private ["SE", "top"]
+- !private ["SE", "white"]
+- !private ["SQ", "aspectRatio"]
+- !private ["SQ", "black"]
+- !private ["SQ", "bold"]
+- !private ["SQ", "bottom"]
+- !private ["SQ", "center"]
+- !private ["SQ", "custom"]
+- !private ["SQ", "fill"]
+- !private ["SQ", "font"]
+- !private ["SQ", "fontWeight"]
+- !private ["SQ", "foregroundColor"]
+- !private ["SQ", "frame"]
+- !private ["SQ", "init"]
+- !private ["SQ", "leading"]
+- !private ["SQ", "opacity"]
+- !private ["SQ", "padding"]
+- !private ["SQ", "resizable"]
+- !private ["SQ", "title"]
+- !private ["SQ", "toggle"]
+- !private ["SQ", "top"]
+- !private ["SQ", "trailing"]
+- !private ["SQ", "white"]
+- !private ["s25ExpressibleByArrayLiteralP", "bottom"]
+- !private ["s25ExpressibleByArrayLiteralP", "leading"]
+- !private ["s25ExpressibleByArrayLiteralP", "top"]
+- !private ["s25ExpressibleByArrayLiteralP", "trailing"]
+- !private ["s27ExpressibleByBooleanLiteralP", "toggle"]
+- !private ["s25ExpressibleByFloatLiteralP", "bottom"]
+- !private ["s25ExpressibleByFloatLiteralP", "top"]
+- !private ["s27ExpressibleByIntegerLiteralP", "bottom"]
+- !private ["s27ExpressibleByIntegerLiteralP", "top"]
+- !private ["s23ExpressibleByNilLiteralP", "black"]
+- !private ["s23ExpressibleByNilLiteralP", "bold"]
+- !private ["s23ExpressibleByNilLiteralP", "custom"]
+- !private ["s23ExpressibleByNilLiteralP", "title"]
+- !private ["s23ExpressibleByNilLiteralP", "white"]
+- !private ["SF", "bottom"]
+- !private ["SF", "top"]
+- !private ["7SwiftUI4FontV", "custom"]
+- !private ["7SwiftUI4FontV", "title"]
+- !private ["7SwiftUI7GestureP", "black"]
+- !private ["7SwiftUI7GestureP", "bold"]
+- !private ["7SwiftUI7GestureP", "custom"]
+- !private ["7SwiftUI7GestureP", "title"]
+- !private ["7SwiftUI7GestureP", "white"]
+- !private ["7SwiftUI6HStackV", "init"]
+- !private ["7SwiftUI6HStackV", "padding"]
+- !private ["SH", "black"]
+- !private ["SH", "bold"]
+- !private ["SH", "bottom"]
+- !private ["SH", "custom"]
+- !private ["SH", "fill"]
+- !private ["SH", "init"]
+- !private ["SH", "opacity"]
+- !private ["SH", "title"]
+- !private ["SH", "toggle"]
+- !private ["SH", "top"]
+- !private ["SH", "white"]
+- !private ["7SwiftUI19HorizontalAlignmentV", "center"]
+- !private ["7SwiftUI19HorizontalAlignmentV", "leading"]
+- !private ["7SwiftUI5ImageV", "aspectRatio"]
+- !private ["7SwiftUI5ImageV", "foregroundColor"]
+- !private ["7SwiftUI5ImageV", "frame"]
+- !private ["7SwiftUI5ImageV", "init"]
+- !private ["7SwiftUI5ImageV", "resizable"]
+- !private ["7SwiftUI15InsettableShapeP", "foregroundColor"]
+- !private ["7SwiftUI15InsettableShapeP", "init"]
+- !private ["s25LosslessStringConvertibleP", "toggle"]
+- !private ["7SwiftUI14NavigationLinkV", "init"]
+- !private ["Sj", "bottom"]
+- !private ["Sj", "top"]
+- !private ["s9OptionSetP", "bottom"]
+- !private ["s9OptionSetP", "leading"]
+- !private ["s9OptionSetP", "top"]
+- !private ["s9OptionSetP", "trailing"]
+- !private ["Sq", "black"]
+- !private ["Sq", "bold"]
+- !private ["Sq", "custom"]
+- !private ["Sq", "title"]
+- !private ["Sq", "white"]
+- !private ["7SwiftUI15PreviewProviderP", "Contribution_1"]
+- ["7SwiftUI15PreviewProviderP", "Previews"]
+- ["7SwiftUI15PreviewProviderP", ""]
+- ["7SwiftUI15PreviewProviderP", "_Default_Previews"]
+- ["7SwiftUI15PreviewProviderP", "_platform"]
+- ["7SwiftUI15PreviewProviderP", "_previews"]
+- ["7SwiftUI15PreviewProviderP", "platform"]
+- ["7SwiftUI15PreviewProviderP", "previews"]
+- !private ["SY", "bottom"]
+- !private ["SY", "leading"]
+- !private ["SY", "top"]
+- !private ["SY", "trailing"]
+- !private ["7SwiftUI7SectionV", "frame"]
+- !private ["7SwiftUI7SectionV", "init"]
+- !private ["7SwiftUI4EdgeO3SetV", "bottom"]
+- !private ["7SwiftUI4EdgeO3SetV", "leading"]
+- !private ["7SwiftUI4EdgeO3SetV", "top"]
+- !private ["7SwiftUI4EdgeO3SetV", "trailing"]
+- !private ["s10SetAlgebraP", "bottom"]
+- !private ["s10SetAlgebraP", "leading"]
+- !private ["s10SetAlgebraP", "top"]
+- !private ["s10SetAlgebraP", "trailing"]
+- !private ["7SwiftUI5ShapeP", "foregroundColor"]
+- !private ["7SwiftUI5ShapeP", "init"]
+- !private ["7SwiftUI10ShapeStyleP", "black"]
+- !private ["7SwiftUI10ShapeStyleP", "init"]
+- !private ["7SwiftUI10ShapeStyleP", "opacity"]
+- !private ["7SwiftUI10ShapeStyleP", "white"]
+- !private ["s13SignedNumericP", "bottom"]
+- !private ["s13SignedNumericP", "top"]
+- !private ["7SwiftUI6SpacerV", "init"]
+- ["7SwiftUI5StateV", "init"]
+- ["7SwiftUI5StateV", "wrappedValue"]
+- !private ["Sx", "bottom"]
+- !private ["Sx", "top"]
+- !private ["7SwiftUI4TextV", "font"]
+- !private ["7SwiftUI4TextV", "fontWeight"]
+- !private ["7SwiftUI4TextV", "foregroundColor"]
+- !private ["7SwiftUI4TextV", "frame"]
+- !private ["7SwiftUI4TextV", "init"]
+- !private ["7SwiftUI4TextV", "padding"]
+- !private ["7SwiftUI9TextFieldV", "init"]
+- ["007CmAaDFu9TextfieldV", "$textfield_words_inside"]
+- ["007CmAaDFu9TextfieldV", "$textfield_words_top"]
+- ["007CmAaDFu9TextfieldV", "Binding"]
+- ["007CmAaDFu9TextfieldV", "Body"]
+- !private ["007CmAaDFu9TextfieldV", "Color"]
+- !private ["007CmAaDFu9TextfieldV", "Section"]
+- ["007CmAaDFu9TextfieldV", "String"]
+- !private ["007CmAaDFu9TextfieldV", "TextField"]
+- !private ["007CmAaDFu9TextfieldV", "VStack"]
+- ["007CmAaDFu9TextfieldV", "View"]
+- ["007CmAaDFu9TextfieldV", "_Default_Body"]
+- ["007CmAaDFu9TextfieldV", "_makeView"]
+- ["007CmAaDFu9TextfieldV", "_makeViewList"]
+- !private ["007CmAaDFu9TextfieldV", "_textfield_words_inside"]
+- !private ["007CmAaDFu9TextfieldV", "_textfield_words_top"]
+- ["007CmAaDFu9TextfieldV", "body"]
+- ["007CmAaDFu9TextfieldV", "deinit"]
+- ["007CmAaDFu9TextfieldV", "init"]
+- ["007CmAaDFu9TextfieldV", "textfield_words_inside"]
+- ["007CmAaDFu9TextfieldV", "textfield_words_top"]
+- ["007CmAaDFu11Titlewords1V", "Body"]
+- !private ["007CmAaDFu11Titlewords1V", "HStack"]
+- !private ["007CmAaDFu11Titlewords1V", "Text"]
+- !private ["007CmAaDFu11Titlewords1V", "VStack"]
+- ["007CmAaDFu11Titlewords1V", "View"]
+- ["007CmAaDFu11Titlewords1V", "_Default_Body"]
+- ["007CmAaDFu11Titlewords1V", "_makeView"]
+- ["007CmAaDFu11Titlewords1V", "_makeViewList"]
+- ["007CmAaDFu11Titlewords1V", "body"]
+- ["007CmAaDFu11Titlewords1V", "deinit"]
+- ["007CmAaDFu11Titlewords1V", "init"]
+- ["007CmAaDFu11Titlewords2V", "Body"]
+- !private ["007CmAaDFu11Titlewords2V", "HStack"]
+- !private ["007CmAaDFu11Titlewords2V", "Spacer"]
+- !private ["007CmAaDFu11Titlewords2V", "Text"]
+- !private ["007CmAaDFu11Titlewords2V", "VStack"]
+- ["007CmAaDFu11Titlewords2V", "View"]
+- ["007CmAaDFu11Titlewords2V", "_Default_Body"]
+- ["007CmAaDFu11Titlewords2V", "_makeView"]
+- ["007CmAaDFu11Titlewords2V", "_makeViewList"]
+- ["007CmAaDFu11Titlewords2V", "body"]
+- ["007CmAaDFu11Titlewords2V", "deinit"]
+- ["007CmAaDFu11Titlewords2V", "init"]
+- !private ["7SwiftUI6VStackV", "background"]
+- !private ["7SwiftUI6VStackV", "frame"]
+- !private ["7SwiftUI6VStackV", "init"]
+- !private ["7SwiftUI6VStackV", "padding"]
+- !private ["7SwiftUI16VectorArithmeticP", "bottom"]
+- !private ["7SwiftUI16VectorArithmeticP", "top"]
+- !private ["7SwiftUI4ViewP", "$showingPopover1"]
+- !private ["7SwiftUI4ViewP", "$textfield_words_inside"]
+- !private ["7SwiftUI4ViewP", "$textfield_words_inside1"]
+- !private ["7SwiftUI4ViewP", "$textfield_words_inside2"]
+- !private ["7SwiftUI4ViewP", "$textfield_words_top1"]
+- !private ["7SwiftUI4ViewP", "$textfield_words_top2"]
+- ["7SwiftUI4ViewP", "Body"]
+- !private ["7SwiftUI4ViewP", "Button"]
+- !private ["7SwiftUI4ViewP", "Circle"]
+- !private ["7SwiftUI4ViewP", "Color"]
+- !private ["7SwiftUI4ViewP", "Contribution_3"]
+- !private ["7SwiftUI4ViewP", "HStack"]
+- !private ["7SwiftUI4ViewP", "Image"]
+- !private ["7SwiftUI4ViewP", "NavigationLink"]
+- !private ["7SwiftUI4ViewP", "Section"]
+- !private ["7SwiftUI4ViewP", "Spacer"]
+- !private ["7SwiftUI4ViewP", "Text"]
+- !private ["7SwiftUI4ViewP", "TextField"]
+- !private ["7SwiftUI4ViewP", "Textfield"]
+- !private ["7SwiftUI4ViewP", "VStack"]
+- !private ["7SwiftUI4ViewP", "ZStack"]
+- ["7SwiftUI4ViewP", ""]
+- ["7SwiftUI4ViewP", "_Default_Body"]
+- ["7SwiftUI4ViewP", "_makeView"]
+- ["7SwiftUI4ViewP", "_makeViewList"]
+- !private ["7SwiftUI4ViewP", "aspectRatio"]
+- !private ["7SwiftUI4ViewP", "background"]
+- !private ["7SwiftUI4ViewP", "black"]
+- ["7SwiftUI4ViewP", "body"]
+- !private ["7SwiftUI4ViewP", "bold"]
+- !private ["7SwiftUI4ViewP", "cornerRadius"]
+- !private ["7SwiftUI4ViewP", "custom"]
+- !private ["7SwiftUI4ViewP", "description"]
+- !private ["7SwiftUI4ViewP", "font"]
+- !private ["7SwiftUI4ViewP", "fontWeight"]
+- !private ["7SwiftUI4ViewP", "foregroundColor"]
+- !private ["7SwiftUI4ViewP", "frame"]
+- !private ["7SwiftUI4ViewP", "init"]
+- !private ["7SwiftUI4ViewP", "opacity"]
+- !private ["7SwiftUI4ViewP", "padding"]
+- !private ["7SwiftUI4ViewP", "popover"]
+- !private ["7SwiftUI4ViewP", "resizable"]
+- !private ["7SwiftUI4ViewP", "sentence"]
+- !private ["7SwiftUI4ViewP", "shadow"]
+- !private ["7SwiftUI4ViewP", "show"]
+- !private ["7SwiftUI4ViewP", "showingPopover"]
+- !private ["7SwiftUI4ViewP", "showingPopover1"]
+- !private ["7SwiftUI4ViewP", "sp"]
+- !private ["7SwiftUI4ViewP", "tab1_content"]
+- !private ["7SwiftUI4ViewP", "tab_word"]
+- !private ["7SwiftUI4ViewP", "textfield_words_top"]
+- !private ["7SwiftUI4ViewP", "title"]
+- !private ["7SwiftUI4ViewP", "topwords"]
+- !private ["7SwiftUI4ViewP", "white"]
+- !private ["7SwiftUI11ViewBuilderV", "buildBlock"]
+- !private ["7SwiftUI4FontV6WeightV", "bold"]
+- !private ["7SwiftUI6ZStackV", "init"]
+- !private ["s15_CVarArgAlignedP", "bottom"]
+- !private ["s15_CVarArgAlignedP", "top"]
+- !private ["s22_CVarArgPassedAsDoubleP", "bottom"]
+- !private ["s22_CVarArgPassedAsDoubleP", "top"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "toggle"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "toggle"]
+- !private ["7SwiftUI18_FormatSpecifiableP", "bottom"]
+- !private ["7SwiftUI18_FormatSpecifiableP", "top"]
+- !private ["s21_ObjectiveCBridgeableP", "black"]
+- !private ["s21_ObjectiveCBridgeableP", "bold"]
+- !private ["s21_ObjectiveCBridgeableP", "bottom"]
+- !private ["s21_ObjectiveCBridgeableP", "custom"]
+- !private ["s21_ObjectiveCBridgeableP", "title"]
+- !private ["s21_ObjectiveCBridgeableP", "toggle"]
+- !private ["s21_ObjectiveCBridgeableP", "top"]
+- !private ["s21_ObjectiveCBridgeableP", "white"]
+- !private ["7SwiftUI16_PreviewProviderP", "Contribution_1"]
+- ["7SwiftUI16_PreviewProviderP", "Previews"]
+- ["7SwiftUI16_PreviewProviderP", ""]
+- ["7SwiftUI16_PreviewProviderP", "_Default_Previews"]
+- ["7SwiftUI16_PreviewProviderP", "_platform"]
+- ["7SwiftUI16_PreviewProviderP", "_previews"]
+- ["7SwiftUI16_PreviewProviderP", "platform"]
+- ["7SwiftUI16_PreviewProviderP", "previews"]
+- !private ["7SwiftUI11_VectorMathP", "bottom"]
+- !private ["7SwiftUI11_VectorMathP", "top"]
+- ["007CmAaDFu4tab1V", "$showingPopover"]
+- ["007CmAaDFu4tab1V", "$tab_word"]
+- ["007CmAaDFu4tab1V", "Binding"]
+- ["007CmAaDFu4tab1V", "Body"]
+- ["007CmAaDFu4tab1V", "Bool"]
+- !private ["007CmAaDFu4tab1V", "Button"]
+- !private ["007CmAaDFu4tab1V", "Color"]
+- ["007CmAaDFu4tab1V", "String"]
+- !private ["007CmAaDFu4tab1V", "Text"]
+- ["007CmAaDFu4tab1V", "View"]
+- ["007CmAaDFu4tab1V", "_Default_Body"]
+- ["007CmAaDFu4tab1V", "_makeView"]
+- ["007CmAaDFu4tab1V", "_makeViewList"]
+- !private ["007CmAaDFu4tab1V", "_showingPopover"]
+- !private ["007CmAaDFu4tab1V", "_tab_word"]
+- ["007CmAaDFu4tab1V", "body"]
+- ["007CmAaDFu4tab1V", "deinit"]
+- ["007CmAaDFu4tab1V", "init"]
+- ["007CmAaDFu4tab1V", "showingPopover"]
+- ["007CmAaDFu4tab1V", "tab_word"]
+- ["007CmAaDFu5tab11V", "$show"]
+- ["007CmAaDFu5tab11V", "$tab_word"]
+- ["007CmAaDFu5tab11V", "Binding"]
+- ["007CmAaDFu5tab11V", "Body"]
+- ["007CmAaDFu5tab11V", "Bool"]
+- !private ["007CmAaDFu5tab11V", "Button"]
+- !private ["007CmAaDFu5tab11V", "Color"]
+- ["007CmAaDFu5tab11V", "String"]
+- !private ["007CmAaDFu5tab11V", "Text"]
+- ["007CmAaDFu5tab11V", "View"]
+- ["007CmAaDFu5tab11V", "_Default_Body"]
+- ["007CmAaDFu5tab11V", "_makeView"]
+- ["007CmAaDFu5tab11V", "_makeViewList"]
+- !private ["007CmAaDFu5tab11V", "_show"]
+- !private ["007CmAaDFu5tab11V", "_tab_word"]
+- ["007CmAaDFu5tab11V", "body"]
+- ["007CmAaDFu5tab11V", "deinit"]
+- ["007CmAaDFu5tab11V", "init"]
+- ["007CmAaDFu5tab11V", "show"]
+- ["007CmAaDFu5tab11V", "tab_word"]
+- ["007CmAaDFu12tab1_contentV", "$sp"]
+- ["007CmAaDFu12tab1_contentV", "$textfield_words_inside1"]
+- ["007CmAaDFu12tab1_contentV", "$textfield_words_inside2"]
+- ["007CmAaDFu12tab1_contentV", "$textfield_words_top1"]
+- ["007CmAaDFu12tab1_contentV", "$textfield_words_top2"]
+- ["007CmAaDFu12tab1_contentV", "Binding"]
+- ["007CmAaDFu12tab1_contentV", "Body"]
+- ["007CmAaDFu12tab1_contentV", "Bool"]
+- !private ["007CmAaDFu12tab1_contentV", "Button"]
+- !private ["007CmAaDFu12tab1_contentV", "Color"]
+- !private ["007CmAaDFu12tab1_contentV", "HStack"]
+- !private ["007CmAaDFu12tab1_contentV", "Image"]
+- ["007CmAaDFu12tab1_contentV", "State"]
+- !private ["007CmAaDFu12tab1_contentV", "Text"]
+- !private ["007CmAaDFu12tab1_contentV", "Textfield"]
+- !private ["007CmAaDFu12tab1_contentV", "VStack"]
+- ["007CmAaDFu12tab1_contentV", "View"]
+- ["007CmAaDFu12tab1_contentV", "_Default_Body"]
+- ["007CmAaDFu12tab1_contentV", "_makeView"]
+- ["007CmAaDFu12tab1_contentV", "_makeViewList"]
+- !private ["007CmAaDFu12tab1_contentV", "_sp"]
+- !private ["007CmAaDFu12tab1_contentV", "_textfield_words_inside1"]
+- !private ["007CmAaDFu12tab1_contentV", "_textfield_words_inside2"]
+- !private ["007CmAaDFu12tab1_contentV", "_textfield_words_top1"]
+- !private ["007CmAaDFu12tab1_contentV", "_textfield_words_top2"]
+- ["007CmAaDFu12tab1_contentV", "body"]
+- ["007CmAaDFu12tab1_contentV", "deinit"]
+- ["007CmAaDFu12tab1_contentV", "init"]
+- ["007CmAaDFu12tab1_contentV", "sp"]
+- ["007CmAaDFu12tab1_contentV", "textfield_words_inside1"]
+- ["007CmAaDFu12tab1_contentV", "textfield_words_inside2"]
+- ["007CmAaDFu12tab1_contentV", "textfield_words_top1"]
+- ["007CmAaDFu12tab1_contentV", "textfield_words_top2"]
+- ["007CmAaDFu4tab2V", "$showingPopover"]
+- ["007CmAaDFu4tab2V", "$tab_word"]
+- ["007CmAaDFu4tab2V", "Binding"]
+- ["007CmAaDFu4tab2V", "Body"]
+- ["007CmAaDFu4tab2V", "Bool"]
+- !private ["007CmAaDFu4tab2V", "Button"]
+- !private ["007CmAaDFu4tab2V", "Color"]
+- ["007CmAaDFu4tab2V", "String"]
+- !private ["007CmAaDFu4tab2V", "Text"]
+- ["007CmAaDFu4tab2V", "View"]
+- ["007CmAaDFu4tab2V", "_Default_Body"]
+- ["007CmAaDFu4tab2V", "_makeView"]
+- ["007CmAaDFu4tab2V", "_makeViewList"]
+- !private ["007CmAaDFu4tab2V", "_showingPopover"]
+- !private ["007CmAaDFu4tab2V", "_tab_word"]
+- ["007CmAaDFu4tab2V", "body"]
+- ["007CmAaDFu4tab2V", "deinit"]
+- ["007CmAaDFu4tab2V", "init"]
+- ["007CmAaDFu4tab2V", "showingPopover"]
+- ["007CmAaDFu4tab2V", "tab_word"]
+- ["007CmAaDFu8topwordsV", "$description"]
+- ["007CmAaDFu8topwordsV", "$sentence"]
+- ["007CmAaDFu8topwordsV", "Body"]
+- ["007CmAaDFu8topwordsV", "State"]
+- ["007CmAaDFu8topwordsV", "String"]
+- !private ["007CmAaDFu8topwordsV", "Text"]
+- !private ["007CmAaDFu8topwordsV", "VStack"]
+- ["007CmAaDFu8topwordsV", "View"]
+- ["007CmAaDFu8topwordsV", "_Default_Body"]
+- !private ["007CmAaDFu8topwordsV", "_description"]
+- ["007CmAaDFu8topwordsV", "_makeView"]
+- ["007CmAaDFu8topwordsV", "_makeViewList"]
+- !private ["007CmAaDFu8topwordsV", "_sentence"]
+- ["007CmAaDFu8topwordsV", "body"]
+- ["007CmAaDFu8topwordsV", "deinit"]
+- ["007CmAaDFu8topwordsV", "description"]
+- ["007CmAaDFu8topwordsV", "init"]
+- !private ["007CmAaDFu8topwordsV", "padding"]
+- ["007CmAaDFu8topwordsV", "sentence"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "7SwiftUI10AnimatableP"
+- !private "SB"
+- !private "Sb"
+- !private "7SwiftUI6ButtonV"
+- !private "12CoreGraphics7CGFloatV"
+- !private "s7CVarArgP"
+- !private "s12CaseIterableP"
+- !private "7SwiftUI6CircleV"
+- !private "7SwiftUI5ColorV"
+- !private "SL"
+- !private "7SwiftUI11ContentModeO"
+- "007CmAaDFu14Contribution_1V"
+- "007CmAaDFu23Contribution_1_PreviewsV"
+- !private "007CmAaDFu14Contribution_3V"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- "7SwiftUI15DynamicPropertyP"
+- !private "7SwiftUI10EdgeInsetsV"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "SF"
+- !private "7SwiftUI4FontV"
+- !private "7SwiftUI7GestureP"
+- !private "7SwiftUI6HStackV"
+- !private "SH"
+- !private "7SwiftUI19HorizontalAlignmentV"
+- !private "7SwiftUI5ImageV"
+- !private "7SwiftUI15InsettableShapeP"
+- !private "s25LosslessStringConvertibleP"
+- !private "7SwiftUI14NavigationLinkV"
+- !private "Sj"
+- !private "s9OptionSetP"
+- !private "Sq"
+- "7SwiftUI15PreviewProviderP"
+- !private "SY"
+- !private "7SwiftUI7SectionV"
+- !private "7SwiftUI4EdgeO3SetV"
+- !private "s10SetAlgebraP"
+- !private "7SwiftUI5ShapeP"
+- !private "7SwiftUI10ShapeStyleP"
+- !private "s13SignedNumericP"
+- !private "7SwiftUI6SpacerV"
+- "7SwiftUI5StateV"
+- !private "Sx"
+- !private "7SwiftUI4TextV"
+- !private "7SwiftUI9TextFieldV"
+- "007CmAaDFu9TextfieldV"
+- "007CmAaDFu11Titlewords1V"
+- "007CmAaDFu11Titlewords2V"
+- !private "7SwiftUI6VStackV"
+- !private "7SwiftUI16VectorArithmeticP"
+- "7SwiftUI4ViewP"
+- !private "7SwiftUI11ViewBuilderV"
+- !private "7SwiftUI4FontV6WeightV"
+- !private "7SwiftUI6ZStackV"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "7SwiftUI18_FormatSpecifiableP"
+- !private "s21_ObjectiveCBridgeableP"
+- "7SwiftUI16_PreviewProviderP"
+- !private "7SwiftUI11_VectorMathP"
+- "007CmAaDFu4tab1V"
+- "007CmAaDFu5tab11V"
+- "007CmAaDFu12tab1_contentV"
+- "007CmAaDFu4tab2V"
+- "007CmAaDFu8topwordsV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreMIDI.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreMedia.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreData.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/simd.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/AVFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreAudio.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/os.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SwiftUI.framework/Modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "6802e582b7b5fc66111253e1a09c1852"
