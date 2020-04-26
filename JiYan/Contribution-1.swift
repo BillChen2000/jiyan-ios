@@ -18,91 +18,54 @@ struct Contribution_1: View {
     @State var showingPopover2 = false
     @State var showingPopover3 = false
     @State var showingPopover4 = false
-   
     @State var tab_word1 = "编辑文本"
     @State var tab_word2 = "浏览已有录音"
     @State var tab_word3 = "上一句"
        @State var tab_word4 = "下一句"
     
     var body: some View {
-        ZStack {
-            VStack{
-                VStack() {
-                    topwords(sentence: "你在爪子", description: "询问他人在做什么事情")
-                        .padding(.bottom)
-                    /*tab1(showingPopover: $showingPopover1, tab_word: $tab_word1)
-                    
-                        .popover(isPresented: $showingPopover1)
-                        {
-                            tab1_content()
-                    }
-                   
-                    tab11(show: $showingPopover2, tab_word: $tab_word2)
-                    
-                        
-                    HStack {
-                        NavigationLink(destination:tab2(showingPopover: $showingPopover3, tab_word: $tab_word3)){
-                            tab11(show: $showingPopover2, tab_word: $tab_word2)
-                        }
-                        tab2(showingPopover: $showingPopover3, tab_word: $tab_word3)
-                            .offset(x: -24, y: 0)
-                        tab2(showingPopover: $showingPopover4, tab_word: $tab_word4)
-                     .offset(x: 24, y: 0)
-                     }*/
-                    
-                    
-                    Button(action: {self.showingPopover1.toggle()}) {
-                        Text("编辑文本")
-                            .foregroundColor(.black)
-                            .frame(width:250, height:40)
-                            .background(Color.white)
-                            .cornerRadius(10)
-                            .opacity(0.9)
-                    }.popover(isPresented: $showingPopover1) {
-                        
-                        tab1_content(sp: self.$showingPopover1)
-                    }
-                    .padding()
-                    
-                    
-                    NavigationLink(destination:Contribution_3()) {
-                        Text("浏览已有录音")
-                            .foregroundColor(.black)
-                            .frame(width:250, height:40)
-                            .background(Color.white)
-                            .cornerRadius(10)
-                            .opacity(0.9)
-                    }
+        VStack{
+            VStack(alignment: .center,spacing: 24) {
+                topwords().offset(x: 0, y: -50)
+                tab1(showingPopover: $showingPopover1, tab_word: $tab_word1)
+                
+                    .popover(isPresented: $showingPopover1)
+                    {
+                        tab1_content()
                 }
-                .padding(.bottom,100)
-                
-                
-                
-                VStack (alignment: .center){
-                    Image("录音按钮")
-                        .resizable()
-                        .frame(width:100,height:100)
-                    Text("在你准备好之后，请用四川话录音")
-                    Image("波形")
-                }.background(
-                    Circle()
-                        .foregroundColor(.white)
-                        .frame(width:700,height:700)
-                        .padding(.top,400)
-                )
-                    .padding(.bottom,50)
+                tab1(showingPopover: $showingPopover2, tab_word: $tab_word2)
+                    
+                    .popover(isPresented: $showingPopover2)
+                    {
+                        tab2_content()
+                }
+                HStack {
+                    tab2(showingPopover: $showingPopover3, tab_word: $tab_word3)
+                        .offset(x: -24, y: 0)
+                    tab2(showingPopover: $showingPopover4, tab_word: $tab_word4)
+                    .offset(x: 24, y: 0)
+                }
+                 
             }
-            .frame(width: 450,height: 900)
-            .background(Image("矩形深")
-            .resizable()
-            .aspectRatio(contentMode: .fill)
+            
+            VStack (alignment: .center,spacing: 34){
+                Image("录音按钮")
+                    .resizable()
+                    .frame(width: 120, height: 120)
+                Text("在你准备好之后，请用四川话录音")
+                Image("波形")
+            }.background(Image("bottom")
+                .resizable()
+                .frame(width: 700, height: 370)
+                .aspectRatio(contentMode: .fill)
             )
-            
-
-            
-            
-            
+            .offset(x: 0, y: 89)
         }
+        .frame(width: 450)
+        .background(Image("矩形深")
+        .resizable()
+        .aspectRatio(contentMode: .fill)
+        )
     }
 }
 
@@ -113,15 +76,12 @@ struct Contribution_1_Previews: PreviewProvider {
 }
 
 struct topwords: View {
-    @State var sentence : String
-    @State var description : String
     var body: some View {
-        VStack (){
-            Text(sentence)
-                .font(.custom("HYChangLiSongKeBen(Truing)",size:40))
+        VStack (spacing:35 ){
+            Text("你在爪子")
+                .font(.custom("HYChangLiSongKeBen(Truing)",size:50))
                 .foregroundColor(.white)
-                .padding(.bottom)
-            Text(description)
+            Text("询问他人在做什么事情")
                 .foregroundColor(.white)
         }
     }
@@ -135,7 +95,7 @@ struct tab1: View {
             self.showingPopover = true
         }) {
             Text(tab_word)
-               .frame(width: 250, height: 40)
+               .frame(width: 300, height: 45)
                 .foregroundColor(.black)
                 .background(Color.white
                     .opacity(0.8)
@@ -143,30 +103,6 @@ struct tab1: View {
                 .cornerRadius(15)
                 .shadow(color: Color("Cardcolor"), radius: 15)
         }
-    }
-}
-
-struct tab11: View {
-    @Binding var show : Bool
-    @Binding var tab_word : String
-    var body: some View {
-       // NavigationLink(destination: Contribution_3()) {
-  
-            Button(action: {
-                self.show.toggle()
-                })
-             {
-                    Text(tab_word)
-                       .frame(width: 250, height: 40)
-                        .foregroundColor(.black)
-                        .background(Color.white
-                            .opacity(0.8)
-                    )
-                        .cornerRadius(15)
-                        .shadow(color: Color("Cardcolor"), radius: 15)
-           //  }
-            }
-           
     }
 }
 struct tab2: View {
@@ -177,7 +113,7 @@ struct tab2: View {
             self.showingPopover = true
         }) {
             Text(tab_word)
-               .frame(width: 110, height: 40)
+               .frame(width: 120, height: 45)
                 .foregroundColor(.black)
                 .background(Color.white
                 .opacity(0.8))
@@ -191,15 +127,15 @@ struct Titlewords1: View {
     var body: some View {
         VStack {
             HStack {
-               Text("编辑文本")
-                                  .font(.custom("HYChangLiSongKeBen(Truing)",size:45))
-                                  .fontWeight(.bold)
-                                  .foregroundColor(.white)
-                                  .padding(.leading,80)
-               
+                Text("编辑文本")
+                    .font(.custom("HYChangLiSongKeBen(Truing)",size:50))
+                    .fontWeight(.bold)
+                    .foregroundColor(.white)
+                    .padding(.leading,80)
+                Spacer()
             }
-            
-           
+            .padding(.top,100)
+            Spacer()
         }
     }
 }
@@ -224,30 +160,14 @@ struct Textfield: View {
 
 
 struct tab1_content: View {
-    @Binding var sp : Bool
     @State var textfield_words_top1 = "方言标题"
     @State var textfield_words_inside1 = ""
     @State var textfield_words_top2 = "普通话标题"
     @State var textfield_words_inside2 = ""
     var body: some View {
         VStack() {
-            Button(action: {self.sp.toggle()}) {
-                    HStack {
-                        Image(systemName: "chevron.left")
-                            .foregroundColor(.white)
-                        Text("返回")
-                            .foregroundColor(.white)
-                    }
-            }
-            .padding(.top)
-            .padding(.trailing,280)
-            
+            Titlewords1()
             VStack(alignment: .leading,spacing: 40){
-                Text("编辑文本")
-                    .font(.custom("HYChangLiSongKeBen(Truing)",size:45))
-                    .fontWeight(.bold)
-                    .foregroundColor(.white)
-                    .padding(.top,20)
                 Text("方言标题")
                     .font(.title)
                     .foregroundColor(.white)
@@ -256,22 +176,10 @@ struct tab1_content: View {
                     .font(.title)
                     .foregroundColor(.white)
                 Textfield(textfield_words_top: self.$textfield_words_top2, textfield_words_inside: self.$textfield_words_inside2)
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                Text("提交")
-                    .foregroundColor(.black)
-                    .frame(width:100, height: 50)
-                    .background(Color.white)
-                    .opacity(0.8)
-                    .cornerRadius(10)
-                }.padding(.leading,100)
-            }
+            }.offset(x: 0, y: -300)
             
         }
-        .background(
-            Image("矩形深")
-        .resizable()
-                .frame(width: 400)
-        .aspectRatio(contentMode: .fill))
+        .background(Image("矩形深").resizable().aspectRatio(contentMode: .fill))
         .opacity(0.8)
     }
 }
@@ -295,5 +203,95 @@ struct Titlewords2: View {
         
     }
 }
+struct list_content: Identifiable {
+  var id = UUID()
+  var name : String
+    var date : String
+    
+}
+struct list_row: View {
+    @Binding var thumbsup : String
+    @Binding var numberofGood : Int
+    @Binding var thumbsdown :String
+    @Binding var numberofBad : Int
+    @Binding var bookmark : String
+    @Binding var numberofBookmark : Int
 
+    
+    var List_content = list_content(name: "小明", date: "2018-7-8")
+    var body: some View {
+        
+        HStack {
+            Text("\(List_content.name)")
+                //Spacer()
+            Text("\(List_content.date)")
+            buttomforThumbs(thumbs: $thumbsup, number: $numberofGood, icon_after: "hand.thumbsup.fill")
+            buttomforThumbs(thumbs: $thumbsdown, number: $numberofBad, icon_after: "hand.thumbsdown.fill")
+           // buttomforThumbs(thumbs: $thumbsup, number: $numberofGood, icon_after: "bookmark.fill")
+            
+        }//.background(Color.black)
+    }
+}
+/*
+struct ListViewDemo: View {
+  
+    var body: some View {
+        
+        let list_row1 = list_content(name: "小明", date: "2018-7-8")
+         let list_row2 = list_content(name: "小红", date: "2015-7-1")
+        let list_row3 = list_content(name: "小花", date: "2010-1-0")
+          //数据数组
+          let recorder = [list_row1, list_row2, list_row3]
+         return List(recorder){ List_content in
+            list_row(List_content: List_content)
+            
+        }
+        }
+    }
+*/
+ 
+struct tab2_content: View {
+    @State var thumbsup = "hand.thumbsup"
+    @State var numberofGood = 0
+    @State var thumbsdown = "hand.thumbsdown"
+    @State var numberofBad = 0
+    @State var bookmark = "bookmark"
+    @State var numberofBookmark = 0
+  
+  var audio_list = [list_content(name: "小明", date: "2018-7-8"),
+    list_content(name: "小红", date: "2015-7-1"),
+    list_content(name: "小花", date: "2010-1-0")]
+    var body: some View {
+        VStack {
+            Titlewords2()
+            NavigationView {
+               
+                list_row(thumbsup: $thumbsup, numberofGood: $numberofGood, thumbsdown: $thumbsdown, numberofBad: $numberofBad, bookmark: $bookmark, numberofBookmark: $numberofBookmark)
+                
+            }//.background(Image("矩形深").resizable().aspectRatio(contentMode: .fill))
+                //.opacity(0.5)
+        } .background(Image("矩形深").resizable().aspectRatio(contentMode: .fill))
+            .opacity(0.8)
+    }
+}
 
+/*struct buttomforThumbs: View {
+    @Binding var thumbs : String
+    @Binding var number : Int
+    var icon_after :String
+    var body: some View{
+        Button(action:{})
+        {
+            VStack{
+                Image(systemName: thumbs)
+                    .foregroundColor(.white)
+                    .onTapGesture {
+                        self.number += 1
+                        self.thumbs = self.icon_after
+                }
+                Text("\(number)")
+                    .foregroundColor(.white)
+            }
+        }
+    }
+}*/

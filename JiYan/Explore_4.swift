@@ -14,45 +14,42 @@ struct Explore_4: View {
             Text("侬好")
                 .font(.custom("HYChangLiSongKeBen(Truing)", size: 50))
                 .foregroundColor(.white)
-                .padding(.top,200)
+                .padding(.top,60)
             Text("普通话中的你好。")
                 .font(.custom("PingFang SC", size: 18))
                 .foregroundColor(.white)
-                .padding(.top,10)
-               
+                .padding(.top,40)
+                .padding(.bottom,90)
             HStack{
                 VStack{
                     Text("90")
-                    .font(.custom("HYChangLiSongKeBen(Truing)", size: 60))
+                    .font(.custom("HYChangLiSongKeBen(Truing)", size: 65))
                     .foregroundColor(.white)
                     Text("跟读得分")
                     .font(.custom("PingFang SC", size: 18))
                     .foregroundColor(.white)
                 }
-                .padding(.trailing,120)
                 Text("读的不错")
-                .font(.custom("PingFang SC", size: 18))
-                .foregroundColor(.white)
             }
             player(text: "播放示例")
             player(text: "播放录音")
             VStack{
                 Image("录音按钮")
-                    .padding(.top,10)
+                    .padding(.top,40)
                 Text("试着模仿录音，在您准备好之后按住按钮录音。")
                     .font(.custom("PingFang SC", size: 16))
                     .foregroundColor(.gray)
-                  
+                    .padding()
                 Spacer()
             }
-            .frame(width:425,height:420)
+            .frame(width:425,height:250)
             .background(
                 Image("Tabbar_ellipse")
                     .resizable()
             )
             
         }
-        .frame(width:470)
+        .frame(width:450)
         .background(Image("矩形深")
         .resizable()
         .aspectRatio(contentMode: .fill))
@@ -86,6 +83,6 @@ struct player: View {
             
             
         }
-        .padding(.bottom,20)
+        .padding(.bottom,40)
     }
 }

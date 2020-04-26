@@ -20,7 +20,7 @@ struct Explore_2: View {
     
     var body: some View {
         ScrollView {
-            
+            VStack{
                 Text(language)
                     .font(.custom("HYChangLiSongKeBen(Truing)", size: 50))
                     .foregroundColor(.white)
@@ -68,15 +68,7 @@ struct Explore_2: View {
                         .cornerRadius(10)
                         .opacity(0.9)
                     }.popover(isPresented: $show_refference) {
-                        Button(action: {self.show_refference.toggle()}) {
-                             HStack {
-                                 Image(systemName: "chevron.left")
-                                 Text("返回")
-                             }
-                     }
-                         .padding(.trailing,280)
                      Text("暂无")
-                         .frame(width:300,height:530)
                     }
                     .padding(.top, 50)
                     
@@ -87,27 +79,20 @@ struct Explore_2: View {
                         .cornerRadius(10)
                         .opacity(0.9)
                     }.popover(isPresented: $show_recommendation) {
-                        Button(action: {self.show_recommendation.toggle()}) {
-                            HStack {
-                                Image(systemName: "chevron.left")
-                                Text("返回")
-                            }
-                    }
-                        .padding(.trailing,280)
                     Text("暂无")
-                        .frame(width:300,height:530)
                     }
                     .padding(.top)
-                    .padding(.bottom,60)
-                    
+                    .padding(.bottom,90)
                 }
+                
+                
             }
-            .frame(width:420)
+            .frame(width:450)
             .frame(minHeight:0, maxHeight: .infinity)
             .background(Image("矩形")
             .resizable()
             .aspectRatio(contentMode: .fill))
-        
+        }
     }
 }
 

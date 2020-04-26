@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		22136B8824037EC400BD9790 /* recordsound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22136B8724037EC400BD9790 /* recordsound.swift */; };
-		22C0D96D2402952D00B2E23B /* 汉仪昌黎宋刻本精修版.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 22C0D96C2402952D00B2E23B /* 汉仪昌黎宋刻本精修版.ttf */; };
-		22C0D9712402A2D900B2E23B /* Contribution-3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C0D9702402A2D900B2E23B /* Contribution-3.swift */; };
-		22C0D9732402A3E600B2E23B /* Contribution-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C0D9722402A3E600B2E23B /* Contribution-2.swift */; };
 		AD0A971123E677A70032FB2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0A971023E677A70032FB2A /* AppDelegate.swift */; };
 		AD0A971323E677A70032FB2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0A971223E677A70032FB2A /* SceneDelegate.swift */; };
 		AD0A971523E677A70032FB2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0A971423E677A70032FB2A /* ContentView.swift */; };
@@ -19,11 +15,13 @@
 		AD0A971D23E677A90032FB2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD0A971B23E677A90032FB2A /* LaunchScreen.storyboard */; };
 		AD0A972823E677A90032FB2A /* JiYanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0A972723E677A90032FB2A /* JiYanTests.swift */; };
 		AD0A973323E677A90032FB2A /* JiYanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0A973223E677A90032FB2A /* JiYanUITests.swift */; };
+		AD0A974123E677DB0032FB2A /* 汉仪昌黎宋刻本精修版.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD0A974023E677DB0032FB2A /* 汉仪昌黎宋刻本精修版.ttf */; };
+		AD0A974723E7F5E90032FB2A /* ExploreList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0A974623E7F5E90032FB2A /* ExploreList.swift */; };
 		AD2E8D1C23FCE10B00267341 /* Introduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0A974823E922DE0032FB2A /* Introduction.swift */; };
 		AD2E8D1E23FCE20100267341 /* playsound.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2E8D1D23FCE20100267341 /* playsound.swift */; };
 		AD2E8D2023FCE97400267341 /* Explore_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2E8D1F23FCE97400267341 /* Explore_2.swift */; };
 		AD4A5C5B23EEBF8B0052508A /* Explore_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4A5C5A23EEBF8B0052508A /* Explore_3.swift */; };
-		AD6A915F240BD8170053E0AD /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6A915E240BD8170053E0AD /* TabBar.swift */; };
+		AD7A5CF523FD2B7000725EF0 /* Contribution-0.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7A5CF423FD2B7000725EF0 /* Contribution-0.swift */; };
 		AD7A5CF723FD318500725EF0 /* Contribution-1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7A5CF623FD318500725EF0 /* Contribution-1.swift */; };
 		AD7A5CF923FD3ABD00725EF0 /* Mine-1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7A5CF823FD3ABD00725EF0 /* Mine-1.swift */; };
 		AD7A5CFB23FD3DC900725EF0 /* Mine-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7A5CFA23FD3DC900725EF0 /* Mine-2.swift */; };
@@ -50,11 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		22136B8724037EC400BD9790 /* recordsound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recordsound.swift; sourceTree = "<group>"; };
-		22C0D96C2402952D00B2E23B /* 汉仪昌黎宋刻本精修版.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "汉仪昌黎宋刻本精修版.ttf"; sourceTree = "<group>"; };
-		22C0D9702402A2D900B2E23B /* Contribution-3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contribution-3.swift"; sourceTree = "<group>"; };
-		22C0D9722402A3E600B2E23B /* Contribution-2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contribution-2.swift"; sourceTree = "<group>"; };
-		AD0A970D23E677A70032FB2A /* 纪言.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "纪言.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0A970D23E677A70032FB2A /* JiYan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JiYan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD0A971023E677A70032FB2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD0A971223E677A70032FB2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AD0A971423E677A70032FB2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -68,11 +62,13 @@
 		AD0A972E23E677A90032FB2A /* JiYanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JiYanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD0A973223E677A90032FB2A /* JiYanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiYanUITests.swift; sourceTree = "<group>"; };
 		AD0A973423E677A90032FB2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD0A974023E677DB0032FB2A /* 汉仪昌黎宋刻本精修版.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "汉仪昌黎宋刻本精修版.ttf"; path = "../../../Downloads/汉仪昌黎宋刻本精修版.ttf"; sourceTree = "<group>"; };
+		AD0A974623E7F5E90032FB2A /* ExploreList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreList.swift; sourceTree = "<group>"; };
 		AD0A974823E922DE0032FB2A /* Introduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Introduction.swift; sourceTree = "<group>"; };
 		AD2E8D1D23FCE20100267341 /* playsound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playsound.swift; sourceTree = "<group>"; };
 		AD2E8D1F23FCE97400267341 /* Explore_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Explore_2.swift; sourceTree = "<group>"; };
 		AD4A5C5A23EEBF8B0052508A /* Explore_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Explore_3.swift; sourceTree = "<group>"; };
-		AD6A915E240BD8170053E0AD /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		AD7A5CF423FD2B7000725EF0 /* Contribution-0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Contribution-0.swift"; sourceTree = "<group>"; };
 		AD7A5CF623FD318500725EF0 /* Contribution-1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Contribution-1.swift"; sourceTree = "<group>"; };
 		AD7A5CF823FD3ABD00725EF0 /* Mine-1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Mine-1.swift"; sourceTree = "<group>"; };
 		AD7A5CFA23FD3DC900725EF0 /* Mine-2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Mine-2.swift"; sourceTree = "<group>"; };
@@ -119,7 +115,7 @@
 		AD0A970E23E677A70032FB2A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AD0A970D23E677A70032FB2A /* 纪言.app */,
+				AD0A970D23E677A70032FB2A /* JiYan.app */,
 				AD0A972323E677A90032FB2A /* JiYanTests.xctest */,
 				AD0A972E23E677A90032FB2A /* JiYanUITests.xctest */,
 			);
@@ -130,25 +126,23 @@
 			isa = PBXGroup;
 			children = (
 				AD9915D823F3A4FE00BEDB3C /* audioTest.mp3 */,
-				22C0D96C2402952D00B2E23B /* 汉仪昌黎宋刻本精修版.ttf */,
 				AD0A971023E677A70032FB2A /* AppDelegate.swift */,
 				AD0A971223E677A70032FB2A /* SceneDelegate.swift */,
-				AD6A915E240BD8170053E0AD /* TabBar.swift */,
 				AD0A971423E677A70032FB2A /* ContentView.swift */,
+				AD0A974623E7F5E90032FB2A /* ExploreList.swift */,
 				AD2E8D1F23FCE97400267341 /* Explore_2.swift */,
 				AD4A5C5A23EEBF8B0052508A /* Explore_3.swift */,
 				AD9915DC23F3C54500BEDB3C /* Explore_4.swift */,
 				AD2E8D1D23FCE20100267341 /* playsound.swift */,
-				22136B8724037EC400BD9790 /* recordsound.swift */,
+				AD7A5CF423FD2B7000725EF0 /* Contribution-0.swift */,
 				AD7A5CF623FD318500725EF0 /* Contribution-1.swift */,
-				22C0D9702402A2D900B2E23B /* Contribution-3.swift */,
-				22C0D9722402A3E600B2E23B /* Contribution-2.swift */,
 				AD7A5CF823FD3ABD00725EF0 /* Mine-1.swift */,
 				AD7A5CFA23FD3DC900725EF0 /* Mine-2.swift */,
 				AD7A5CFC23FD421400725EF0 /* Mine-4.swift */,
 				AD0A971623E677A90032FB2A /* Assets.xcassets */,
 				AD0A971B23E677A90032FB2A /* LaunchScreen.storyboard */,
 				AD0A971E23E677A90032FB2A /* Info.plist */,
+				AD0A974023E677DB0032FB2A /* 汉仪昌黎宋刻本精修版.ttf */,
 				AD0A971823E677A90032FB2A /* Preview Content */,
 			);
 			path = JiYan;
@@ -198,7 +192,7 @@
 			);
 			name = JiYan;
 			productName = JiYan;
-			productReference = AD0A970D23E677A70032FB2A /* 纪言.app */;
+			productReference = AD0A970D23E677A70032FB2A /* JiYan.app */;
 			productType = "com.apple.product-type.application";
 		};
 		AD0A972223E677A90032FB2A /* JiYanTests */ = {
@@ -286,7 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD0A971D23E677A90032FB2A /* LaunchScreen.storyboard in Resources */,
-				22C0D96D2402952D00B2E23B /* 汉仪昌黎宋刻本精修版.ttf in Resources */,
+				AD0A974123E677DB0032FB2A /* 汉仪昌黎宋刻本精修版.ttf in Resources */,
 				AD0A971A23E677A90032FB2A /* Preview Assets.xcassets in Resources */,
 				AD9915D923F3A4FE00BEDB3C /* audioTest.mp3 in Resources */,
 				AD0A971723E677A90032FB2A /* Assets.xcassets in Resources */,
@@ -315,18 +309,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD0A971123E677A70032FB2A /* AppDelegate.swift in Sources */,
-				22C0D9712402A2D900B2E23B /* Contribution-3.swift in Sources */,
+				AD7A5CF523FD2B7000725EF0 /* Contribution-0.swift in Sources */,
 				AD7A5CF923FD3ABD00725EF0 /* Mine-1.swift in Sources */,
-				AD6A915F240BD8170053E0AD /* TabBar.swift in Sources */,
 				AD0A971323E677A70032FB2A /* SceneDelegate.swift in Sources */,
 				AD7A5CFD23FD421400725EF0 /* Mine-4.swift in Sources */,
 				AD7A5CF723FD318500725EF0 /* Contribution-1.swift in Sources */,
-				22136B8824037EC400BD9790 /* recordsound.swift in Sources */,
 				AD2E8D2023FCE97400267341 /* Explore_2.swift in Sources */,
 				AD0A971523E677A70032FB2A /* ContentView.swift in Sources */,
-				22C0D9732402A3E600B2E23B /* Contribution-2.swift in Sources */,
 				AD9915DD23F3C54500BEDB3C /* Explore_4.swift in Sources */,
 				AD2E8D1E23FCE20100267341 /* playsound.swift in Sources */,
+				AD0A974723E7F5E90032FB2A /* ExploreList.swift in Sources */,
 				AD4A5C5B23EEBF8B0052508A /* Explore_3.swift in Sources */,
 				AD7A5CFB23FD3DC900725EF0 /* Mine-2.swift in Sources */,
 			);
@@ -504,7 +496,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Mn.JiYan;
-				PRODUCT_NAME = "纪言";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -524,7 +516,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Mn.JiYan;
-				PRODUCT_NAME = "纪言";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

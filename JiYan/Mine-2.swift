@@ -9,7 +9,6 @@
 import SwiftUI
 
 struct Mine_2: View {
-   // @State var show
     @State var number1 = "203"
     @State var number2 = "689"
     @State var number3 = "16"
@@ -22,15 +21,13 @@ struct Mine_2: View {
     @State var text4 = "条语音贡献"
     @State var text5 = "条文字贡献"
     @State var text6 = "次评分互动"
-     @State var show1 = false
+    
     
     
     var body: some View {
-       
-        VStack() {
+        VStack(alignment: .center) {
             VStack {
-                Titlewords()
-               
+                Titlewords().offset(x: -30, y: 0)
                 HStack(spacing:25) {
                     VStack(spacing:20){
                         cubber(number: $number1, text: $text1)
@@ -41,14 +38,11 @@ struct Mine_2: View {
                         cubber(number: $number4, text: $text1)
                         cubber(number: $number5, text: $text2)
                         cubber(number: $number6, text: $text3)
-                        
                         symbols()
-                            .padding(.top,5)
-                    }.offset(x: 15, y: -40)
+                    }.offset(x: 0, y: -60)
                 }
-                .padding(.bottom,20)
             }
-            
+            tabbar()
             
     
         }
@@ -72,14 +66,14 @@ struct cubber: View {
     var body: some View {
         VStack(alignment: .center) {
             Text(number)
-                .font(.custom("HYChangLiSongKeBen(Truing)",size:40))
+                .font(.custom("HYChangLiSongKeBen(Truing)",size:65))
                 .foregroundColor(Color("darkgreen"))
             Text(text)
                 .foregroundColor(Color("darkgreen"))
         }
         .padding(.bottom,30)
-        .frame(width: 120, height: 120)
-        .background(Color.white.opacity(0.6))
+        .frame(width: 160, height: 160)
+        .background(Color.white.opacity(0.7))
         .cornerRadius(20)
     }
 }
@@ -91,29 +85,26 @@ struct Titlewords: View {
                 Text("别来无恙")
                     .foregroundColor(.white)
                     .font(.custom("HYChangLiSongKeBen(Truing)",size:30))
-                    .bold()
                 HStack {
                     Text("BillChen2000")
                         .foregroundColor(.white)
                         .font(.custom("HYChangLiSongKeBen(Truing)",size:50))
-                        .bold()
                     Text("川")
                         .font(.custom("HYChangLiSongKeBen(Truing)",size:25))
                         .frame(width: 33, height: 33)
                         .foregroundColor(.white)
                         .background(Color.black.opacity(0.4))
                         .cornerRadius(8)
-                      
+                        .offset(x: 55)
                 }
-                Text("感谢有你，")
-                    .foregroundColor(.white)
-                    .padding(.top,15)
-                Text("你在纪言的362天里")
-                    .foregroundColor(.white)
-                    .padding(.top,10)
             }
             
-            
+            VStack(alignment: .leading) {
+                Text("感谢有你，")
+                    .foregroundColor(.white)
+                Text("你在纪言的362天里")
+                    .foregroundColor(.white)
+            }
             
         }
     }
@@ -123,33 +114,53 @@ struct symbols: View {
     var body: some View {
         HStack(spacing:20){
             VStack(alignment: .center) {
-                Image(systemName: "bookmark")
-                .resizable()
-                    .frame(width:20,height:30)
-                    .foregroundColor(.white)
+                Image("收藏")
                 Text("收藏")
                     .foregroundColor(.white)
             }
             VStack(alignment: .center) {
-                Image(systemName: "gear")
-                .resizable()
-                    .frame(width:30,height:30)
-                    .foregroundColor(.white)
+                Image("设置")
                 Text("设置")
                     .foregroundColor(.white)
             }
-            NavigationLink(destination:Mine_4()){
-                VStack(alignment: .center) {
-                    Image(systemName: "heart.circle.fill")
-                    .resizable()
-                        .frame(width:30,height:30)
-                        .foregroundColor(.white)
-                    Text("关于")
-                        .foregroundColor(.white)
-                }
+            VStack(alignment: .center) {
+                Image("关于")
+                Text("关于")
+                    .foregroundColor(.white)
             }
-
         }
     }
 }
 
+struct tabbar: View {
+    var body: some View {
+        HStack(alignment: .center){
+            VStack {
+                
+                Text("贡献")
+                    .foregroundColor(Color("灰"))
+                    .offset(x: -5, y: 30)
+                
+            }.background(Image("贡献").resizable().frame(width: 160, height: 160)).offset(x: -80)
+            VStack {
+                
+                Text("探索")
+                    .foregroundColor(Color("灰"))
+                    .offset( y: 32)
+                
+            }
+            .background(Image("探索")
+            .resizable().frame(width: 100, height: 130)
+            .offset(x: 0, y: 3))
+            VStack {
+                
+                Text("我的")
+                    .foregroundColor(Color("灰"))
+                    .offset( x:89,y: 35)
+                
+            }
+            .background(Image("我的")
+            .resizable().frame(width: 130, height: 130).offset(x: 90, y: 22))
+        }.background(Image("tab").resizable().frame(width: 415, height: 110).offset(x: 0, y: 3))
+    }
+}
